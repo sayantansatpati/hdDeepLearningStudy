@@ -1,19 +1,329 @@
 # hdDeepLearningStudy  
 Papers,code etc for deep learning study group  
-#Suggestions for future readings  
+## Suggestions for future readings  
 https://arxiv.org/pdf/1605.06431v1.pdf - Deep nets are ensembles   
 https://arxiv.org/pdf/1602.08124v3.pdf - soa for parallelization  
 https://arxiv.org/pdf/1404.5997v2.pdf - parallel computation issues  
 http://www.wsdm-conference.org/2016/slides/WSDM2016-Jeff-Dean.pdf - distributed architecture   
 https://www.youtube.com/watch?v=sUzQpd-Ku4o - video of jeff dean talk  
-https://arxiv.org/pdf/1611.01578v1.pdf - RL for finding neural architectures
-http://mlg.eng.cam.ac.uk/yarin/blog_2248.html - uncertainty in neural nets
+https://arxiv.org/pdf/1611.01578v1.pdf - RL for finding neural architectures  
+http://mlg.eng.cam.ac.uk/yarin/blog_2248.html - uncertainty in neural nets  
+https://arxiv.org/pdf/1611.01587.pdf -  Joint Many-task model: Neural Net for multiple NLP Tasks - Socher  
+http://papers.nips.cc/paper/5773-deep-generative-image-models-using-a-laplacian-pyramid-of-adversarial-networks.pdf -GAN paper (recc by LeCun)  
+https://arxiv.org/pdf/1511.05440.pdf - GAN for video prediction  
+https://arxiv.org/abs/1703.02528 - Generative unadversarial networks  
+https://arxiv.org/pdf/1611.01578.pdf - Neural architecture search with RL - google brain  
+https://arxiv.org/pdf/1703.01041.pdf - Large-Scale Evolution of Image Classifiers - google brain  
+https://arxiv.org/pdf/1708.05866.pdf - Survey of reinforcement learning  
+https://arxiv.org/pdf/1710.10196.pdf - training improvements for GAN  
+https://arxiv.org/pdf/1704.00028v2.pdf - improved training for WGANs  
+https://openreview.net/forum?id=ry_WPG-A-&noteId=ry_WPG-A - rebuttal for IB theory  
+http://www.mit.edu/~adedieu/pdf/2048.pdf  - deep reinforcement learning  
+https://arxiv.org/pdf/1710.10784.pdf - geometry of deep learning  
+https://arxiv.org/pdf/1706.00473.pdf - bayesian perspective   
+http://openaccess.thecvf.com/content_cvpr_2017/papers/Khoreva_Simple_Does_It_CVPR_2017_paper.pdf - weakly supervised segmentation  
+https://arxiv.org/pdf/1711.11585.pdf - High resolution image synthesis and semantic manipulation - Nvidia 
+https://github.com/NVIDIA/pix2pixHD  - Synthesizing and manipulating 2048x1024 images with conditional GAN 
+https://arxiv.org/pdf/1505.05424.pdf - weight uncertainties  
+https://arxiv.org/pdf/1711.01297.pdf - weight uncertainties  
+https://arxiv.org/pdf/1802.03268.pdf - Efficient Neural architecture search   
+https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems - SOTA algorithms   
+https://arxiv.org/pdf/1711.10925.pdf - deep image prior   
+https://arxiv.org/pdf/1711.03953.pdf - breaking softmax bottleneck  
+mixed scale deep convolution - PNAS Dec 26, 2017  
+http://lanl.arxiv.org/pdf/1803.05049v1 - Fractal AI    
+https://arxiv.org/abs/1802.05365 - Deep contextualized word representations  
+https://arxiv.org/pdf/1804.04241.pdf - capsule net for segmentation (improvement 95%)  
 
-## February 27 - Hacker Dojo  
+Papers on Learning Rate Scheduling --  
+https://arxiv.org/pdf/1608.03983.pdf - SGD with warm restarts    
+https://arxiv.org/pdf/1506.01186.pdf - Cyclical learning rates   
+https://arxiv.org/pdf/1704.00109.pdf - Snapshot ensembles  
+https://arxiv.org/pdf/1711.00937.pdf - Neural discrete representation learning  
+https://arxiv.org/find/cs/1/au:+Segler_M/0/1/0/all/0/1 - refs on chemical models  
+
+## Apr 23 - Hacker Dojo  
+https://arxiv.org/pdf/1711.10925.pdf - Deep Image Prior  
+
+## Apr 16 - Hacker Dojo 
+Finish Fractal AI  
+https://arxiv.org/pdf/1711.07971.pdf - non-local filtering  
+
+
+## Apr 9 - Hacker Dojo
+http://lanl.arxiv.org/pdf/1803.05049v1 - Fractal AI 
+
+## Apr 2 - Hacker Dojo 
+https://arxiv.org/pdf/1803.04831.pdf - IndRNN longer deeper RNN's  
+
+## Mar 26 -  Hacker Dojo
+https://arxiv.org/pdf/1711.10433.pdf - parallel wavenet  
+https://arxiv.org/pdf/1708.04552.pdf - regularizing convnet with cutout (desert paper) 
+http://www.cs.toronto.edu/~jmartens/docs/Deep_HessianFree.pdf - will get short presentation on this one.  
+
+## Mar 19 - Hacker Dojo 
+https://arxiv.org/pdf/1802.03268.pdf - Efficient Neural Architecture Search via Parameter Sharing  
+https://github.com/carpedm20/ENAS-pytorch 
+
+some related papers and reviews. 
+https://arxiv.org/pdf/1708.05344.pdf - One shot architecture search  
+https://openreview.net/forum?id=ByQZjx-0-  
+and  
+https://openreview.net/forum?id=rydeCEhs-  
+
+
+## Mar 12 - Hacker Dojo 
+https://arxiv.org/abs/1703.10135 - tacotron - end-to-end speech synthesis  
+https://arxiv.org/pdf/1712.05884.pdf - tacotron 2  
+https://research.googleblog.com/2017/12/tacotron-2-generating-human-like-speech.html - 
+https://github.com/A-Jacobson/tacotron2 - pytorch code 
+http://research.baidu.com/deep-speech-3%EF%BC%9Aexploring-neural-transducers-end-end-speech-recognition/  
+
+## Feb 26 - Hacker Dojo  
+https://arxiv.org/pdf/1705.09792.pdf - Deep Complex Networks  
+
+
+## Feb 19 - Hacker Dojo  
+https://arxiv.org/pdf/1801.10308.pdf - Nested LSTM's  
+https://arxiv.org/pdf/1705.10142.pdf - KRU from Fair  
+https://github.com/hannw/nlstm  - tf code for Nested LSTM
+
+## Feb 12 - Hacker Dojo  
+http://openaccess.thecvf.com/content_cvpr_2017/papers/Khoreva_Simple_Does_It_CVPR_2017_paper.pdf - Weakly Supervised Instance and Semantic Segmentation  
+https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/weakly-supervised-learning/simple-does-it-weakly-supervised-instance-and-semantic-segmentation/  
+https://github.com/philferriere/tfwss - Phil Ferriere's code  
+ https://drive.google.com/file/d/1wPHMA4PqygawvIxRiy-2ZMKcpUO447cz/view?usp=sharing - mehul's notebook on segmentation  
+
+## Feb 5 - Hacker Dojo
+https://arxiv.org/pdf/1511.06939.pdf - using rnn for recommendation system  
+https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/46488.pdf - latest paper on rnn for recommendation  
+
+## Jan 29 - Hacker Dojo
+https://arxiv.org/pdf/1709.04511.pdf - Empirical study of multi-agent RL  
+https://github.com/geek-ai/1m-agents - code 
+
+## Jan 22 - Hacker Dojo  
+https://arxiv.org/pdf/1704.00028.pdf - Improvements in Wasserstein GAN training  
+
+## Jan 15 - Hacker Dojo
+
+https://arxiv.org/pdf/1710.02298.pdf - Combining improvements in deep reinforcement learning  
+
+## Jan 8 - Hacker Dojo
+https://openreview.net/pdf?id=HJWLfGWRb - follow-on to capsule network paper  
+https://www.youtube.com/watch?v=pPN8d0E3900  
+https://www.youtube.com/watch?v=2Kawrd5szHE  
+https://github.com/ageron/handson-ml/blob/master/extra_capsnets.ipynb  
+https://github.com/naturomics/CapsNet-Tensorflow  
+https://medium.com/ai%C2%B3-theory-practice-business/understanding-hintons-capsule-networks-part-ii-how-capsules-work-153b6ade9f66  
+
+## Dec 11 - Hacker Dojo  
+https://arxiv.org/pdf/1710.09829.pdf - Dynamic routing between capsules - Hinton  
+
+## Nov 27 - Hacker Dojo
+https://arxiv.org/pdf/1701.01724.pdf - DeepStack: Expert-Level Artificial Intelligence in
+Heads-Up No-Limit Poker  
+
+## Nov 13 - Hacker Dojo
+https://deepmind.com/documents/119/agz_unformatted_nature.pdf - alpha zero paper  
+https://webdocs.cs.ualberta.ca/~mmueller/talks/2016-LeeSedol-AlphaGo.pdf  - some slides  
+
+
+## Nov 6 - Hacker Dojo  
+https://arxiv.org/pdf/1703.10593.pdf - cycle consistent GANs  
+
+## Oct 30 - Hacker Dojo  
+https://arxiv.org/pdf/1503.02406.pdf  Naftali Tishby and Noga Zaslavsky. information bottleneck principle.  
+
+https://www.cs.huji.ac.il/labs/learning/Papers/allerton.pdf - Naftali Tishby, Fernando C. Pereira, and William Bialek. The information bottleneck method. 
+
+https://www.reddit.com/r/MachineLearning/comments/75uua6/r_2_hr_talk_information_theory_of_deep_learning/  
+
+## Oct 23 - Hacker Dojo  
+
+Mask R-CNN  
+https://arxiv.org/abs/1703.06870  
+
+
+And these are prerequisites (read at least Fast R-CNN and Faster R-CNN)  
+
+R-CNN  
+https://arxiv.org/abs/1311.2524  
+
+Fast R-CNN  
+https://arxiv.org/pdf/1504.08083.pdf  
+
+Faster R-CNN  
+https://arxiv.org/abs/1506.01497 Feature Pyramid Networks  
+https://arxiv.org/abs/1612.03144  
+
+
+## Oct 16 - Hacker Dojo 
+https://arxiv.org/pdf/1703.00810.pdf - Opening the Black Box of Neural Nets via Information  
+https://www.youtube.com/watch?v=ekUWO_pI2M8  
+https://www.youtube.com/watch?v=bLqJHjXihK8  
+
+## Oct 9 - Hacker Dojo 
+https://arxiv.org/pdf/1501.00092.pdf - super resolution first paper  
+https://arxiv.org/abs/1608.00367 - super resolution second paper  
+
+## Oct 2 - Hacker Dojo
+https://arxiv.org/abs/1604.03901 - Single-Image Depth Perception in the Wild  
+
+## Sept 25 - Hacker Dojo
+https://arxiv.org/pdf/1706.08947.pdf - Exploring generalization in deep networks.  
+
+## Sept 18 - Hacker Dojo
+https://arxiv.org/pdf/1705.02550.pdf - nvidia drone nav  
+https://github.com/NVIDIA-Jetson/redtail/wiki - code  
+
+## Sept 11 - Hacker Dojo
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.365.5060&rep=rep1&type=pdf - hyperneat ref  
+https://arxiv.org/pdf/1609.09106.pdf - Hypernet ref  
+http://blog.otoro.net/2016/09/28/hyper-networks/ - blog on hypernet  
+https://www.youtube.com/watch?v=-8oyTYViuJ4 - vid on hyperNeat  
+http://eplex.cs.ucf.edu/hyperNEATpage/HyperNEAT.html - blog on hyperNeat
+
+## August 28 - Hacker Dojo
+https://arxiv.org/pdf/1708.05344.pdf - SMASH: One-Shot Model Architecture Search through HyperNetworks
+https://www.youtube.com/watch?v=79tmPL9AL48 - youtube vid on SMASH  
+
+## August 21 - Hacker Dojo
+https://arxiv.org/pdf/1706.02515.pdf - Self Normalizing Neural Networks - Hochreiter  
+
+## August 14 - Hacker Dojo  
+https://arxiv.org/pdf/1606.01541.pdf - Reinforcement Learning for Dialog Generation - Jurafsky  
+https://github.com/liuyuemaicha/Deep-Reinforcement-Learning-for-Dialogue-Generation-in-tensorflow - tensorflow code for same  
+https://github.com/jiweil/ - some related code  
+https://arxiv.org/pdf/1612.00563.pdf - self critical training for image captioning - RL for text prob.  
+  
+Some papers referenced by Jurafsky paper 
+[1506.05869] A Neural Conversational Model - Vinyals and Le  
+https://arxiv.org/abs/1604.04562 - Dialogue generation system - Wen  
+
+
+## Aug 7 - Hacker Dojo
+https://arxiv.org/pdf/1705.04304.pdf - A Deep Reinforced Model for Abstractive Summarization - socher 
+
+## July 31 - Hacker Dojo
+https://arxiv.org/pdf/1706.01433.pdf - visual interaction networks - deep mind  
+https://arxiv.org/pdf/1706.01427.pdf - neural model for relational reasoning - deep mind   
+
+
+## July 24  
+Guest Speaker - Using FPGA to speed CNN.  
+https://arxiv.org/pdf/1703.03130.pdf - A structured self-attentive sentence embedding - Lin and Bengio  
+https://github.com/dennybritz/deeplearning-papernotes/blob/master/notes/self_attention_embedding.md (review)  
+https://github.com/yufengm/SelfAttentive  code  
+https://github.com/Diego999/SelfSent  code  
+
+## July 17 - Hacker Dojo  
+https://arxiv.org/pdf/1706.03762.pdf - attention is all you need - Vaswani  
+https://github.com/tensorflow/tensor2tensor/tree/master/tensor2tensor/models  
+https://github.com/jadore801120/attention-is-all-you-need-pytorch - easier to read code  
+https://arxiv.org/pdf/1607.06450.pdf - layer normalization paper - hinton  
+https://www.youtube.com/watch?v=nR74lBO5M3s - google translate paper - youtube video  
+https://arxiv.org/pdf/1609.08144.pdf  - google translate paper - 
+
+## July 10 - Hacker Dojo  
+https://arxiv.org/pdf/1706.03762.pdf - attention is all you need - Vaswani  
+https://github.com/tensorflow/tensor2tensor/tree/master/tensor2tensor/models  
+https://github.com/jadore801120/attention-is-all-you-need-pytorch - easier to read code  
+https://arxiv.org/pdf/1607.06450.pdf - layer normalization paper - hinton  
+
+
+#### Some added references regarding positional encodings
+http://www.machinelearning.org/proceedings/icml2006/047_Connectionist_Tempor.pdf - A. Graves, S. Fernandez, F. Gomez, and J. Schmidhuber  
+https://www.reddit.com/r/MachineLearning/comments/6jdi87/r_question_about_positional_encodings_used_in/  
+
+
+## June 26 - Hacker Dojo
+https://arxiv.org/pdf/1705.03122.pdf - convolutional sequence to sequence learning  
+https://arxiv.org/pdf/1706.03762.pdf - attention is all you need - Vaswani  
+http://www.machinelearning.org/proceedings/icml2006/047_Connectionist_Tempor.pdf - A. Graves, S. Fernandez, F. Gomez, and J. Schmidhuber  
+
+
+## June 19 - Hacker Dojo
+https://arxiv.org/pdf/1701.02720.pdf - RNN for end to end voice recognition
+
+
+## June 12 - Hacker Dojo  
+New reinforcement learning results -- Too cool for school.  Watch the video and you'll be hooked.  
+https://www.youtube.com/watch?v=2vnLBb18MuQ&feature=em-subs_digest  
+
+http://www.cs.ubc.ca/~van/papers/2017-TOG-deepLoco/index.html - paper  
+
+
+## May 22 - Hacker Dojo  
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/HintonDengYuEtAl-SPM2012.pdf - comparison of RNN and HMM for speech recognition  
+
+## May 15 - Hacker Dojo  
+https://arxiv.org/pdf/1412.6572.pdf -  Explaining and Harnessing Adversarial Examples
+
+
+## May 1 - Hacker Dojo  
+https://arxiv.org/abs/1704.03453  - The Space of Transferable Adversarial Examples
+
+
+## Apr 24 - Hacker Dojo  
+https://discourse-production.oss-cn-shanghai.aliyuncs.com/original/3X/1/5/15ba4cef726cab390faa180eb30fd82b693469f9.pdf - Using TPU for data center  
+
+
+## Apr 17 - Hacker Dojo
+Reservoir Computing by Felix Grezes.
+http://www.gc.cuny.edu/CUNY_GC/media/Computer-Science/Student%20Presentations/Felix%20Grezes/Second_Exam_Survey_Felix_Grezes_9_04_2014.pdf  
+
+Slides by Felix Grezes: Reservoir Computing for Neural Networks  
+http://www.gc.cuny.edu/CUNY_GC/media/Computer-Science/Student%20Presentations/Felix%20Grezes/Second_Exam_Slides_Felix_Grezes_9-14-2014.pdf
+(more at: http://speech.cs.qc.cuny.edu/~felix/ )  
+
+This is a short, very useful backgrounder on randomized projections,  
+here used for compressed sensing, in a blog post by Terence Tao  
+https://terrytao.wordpress.com/2007/04/13/compressed-sensing-and-single-pixel-cameras/  
+
+and the same story told with illustrations on the Nuit Blanche blog:  
+http://nuit-blanche.blogspot.com/2007/07/how-does-rice-one-pixel-camera-work.html  
+
+(BTW http://nuit-blanche.blogspot.com is a tremendous website.)  
+
+---
+
+If we have time, we may discuss this paper:  
+ 
+Information Processing Using a Single Dynamical Node as Complex System.  
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3195233/pdf/ncomms1476.pdf  
+
+
+## Apr 10 - Hacker Dojo  
+
+https://arxiv.org/pdf/1603.08678.pdf - Instance-sensitive Fully Convolutional Networks  
+
+https://arxiv.org/pdf/1611.07709.pdf - Fully Convolutional Instance-aware Semantic Segmentation  
+
+## Apr 3 - Hacker Dojo
+https://arxiv.org/pdf/1703.03864.pdf - Sutskever paper on using evolutionary systems for optimizing RL prob  
+http://jmlr.csail.mit.edu/papers/volume15/wierstra14a/wierstra14a.pdf - ES paper with algo used in Sutskever paper  
+
+
+## Mar 27 - Hacker Dojo
+Aurobindo Tripathy will reprise a talk he's going to give at Embedded Summit this year.  His talk will survey recent progress in object detection from RCNN to Single Shot MultiBox Detector and Yolo 9000.
+
+
+## Mar 20 - Hacker Dojo  
 https://arxiv.org/pdf/1612.05424.pdf - Unsupervised Pixel-level domain adaptation with generative adversarial networks   
 
-## February 20 - Hacker Dojo   
-https://arxiv.org/pdf/1701.06547.pdf - adversarial learning for neural dialog generation
+## Mar 13 - Hacker Dojo  
+https://arxiv.org/pdf/1701.06547.pdf - adversarial learning for neural dialog generation  
+
+## February 27 - Hacker Dojo   
+https://arxiv.org/pdf/1612.02699.pdf - Deep Supervision with Shape Concepts for Occlusion-Aware 3D Object Parsing  
+Zeeshan's slides are in the folder with his name on it.  Along with his descriptions of his own ground-breaking work, he gives an excellent history of efforts to identify 3d objects from 2d images.  
+
+
+## February 20 - Hacker Dojo
+https://arxiv.org/pdf/1506.07285.pdf  - Ask me anything - Socher  
+https://github.com/YerevaNN/Dynamic-memory-networks-in-Theano - Code and implementation notes.  
+https://www.youtube.com/watch?v=FCtpHt6JEI8&t=27s - Socher presentation of material  
 
 
 ## February 13 - Hacker Dojo 
